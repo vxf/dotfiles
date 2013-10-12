@@ -30,9 +30,14 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git symfony2 extract screen cp sprunge torrent vundle web-search dircycle)
+plugins=(git symfony2 extract screen cp sprunge torrent vundle python) # virtualenvwrapper)
+
+unsetopt correct_all
 
 source $ZSH/oh-my-zsh.sh
+unsetopt correct_all
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.5.4:/usr/x86_64-pc-linux-gnu/i686-pc-mingw32/gcc-bin/4.6.3:/usr/games/bin
+
+# workon > /dev/null
