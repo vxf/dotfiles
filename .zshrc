@@ -11,6 +11,7 @@ ZSH_THEME="nicoulaj"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias l="ls -1"
+alias bc="bc -l"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -38,6 +39,7 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.5.4:/usr/x86_64-pc-linux-gnu/i686-pc-mingw32/gcc-bin/4.6.3:/usr/games/bin
+#export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.5.4:/usr/x86_64-pc-linux-gnu/i686-pc-mingw32/gcc-bin/4.6.3:/usr/games/bin
 
+export PATH=$PATH:/opt/cuda/bin
 # workon > /dev/null

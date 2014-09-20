@@ -26,9 +26,13 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 
 " :colorscheme desert
+colorscheme molokai
 
-set ts=4
-set sw=4
+set ts=2
+set sw=2
+set expandtab
 
 let mapleader=","
 let g:pdf_convert_on_edit=1
+
+let g:Powerline_symbols = 'fancy'
