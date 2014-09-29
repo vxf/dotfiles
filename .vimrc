@@ -12,11 +12,15 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'tpope/vim-fugitive'
+Bundle 'vim-scripts/ZoomWin'
+Bundle 'scrooloose/nerdcommenter'
 " Bundle 'mattn/zencoding-vim'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'mbbill/VimExplorer'
 Bundle 'vim-scripts/open-pdf.vim'
 Bundle 'vxf/dbext.vim'
+
 
 filetype plugin indent on     " required!
 
@@ -34,4 +38,4 @@ colorscheme molokai
 let mapleader=","
 let g:pdf_convert_on_edit=1
 
-" let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'fancy'
